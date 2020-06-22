@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --color-green: #50fa7b;
+    --color-rocket: #7159c1;
+}
+
+*{margin: 0;padding: 0; border:0}
+
+body{
+    background: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    color: #816d6a;
+}
+
+header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header #menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+#menu a{
+    padding: 10px;
+    width: 90px;
+    text-decoration: none;
+    color: #111111;
+    filter: brightness(5);
+}
+
+#wreaper {
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+#wreaper #slide {
+    width: 441px;
+    margin: 90px auto;
+}
+
+#wreaper #slide h1{
+    padding: 20px 20px 20px 0;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#wreaper #slide p{
+    opacity: 0.7;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+    width: 330px;
+}
+
+#wreaper #img_slide img {
+    padding: 20px;
+}
+
+section{
+    width: 960px;
+    margin: 0 auto;
+}
+
+section h2{
+    font-size: 24px;
+    padding: 20px 20px 10px 0;
+    line-height: 34px;
+}
+
+section #recipe_list{
+    margin: 0 auto;
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.recipe__card .card__image-container img{
+    border-radius: 20px;
+    width: 300px;
+    border: 3px solid #816d6a;
+}
+
+.recipe__card .card__image-container img:hover{
+    border: 3px solid rgb(149, 57, 48);
+    transition: all 0.2s ease 0s;
+}
+
+
+
+.recipe__card .card__content p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #111111;   
+}
+.recipe__card  .card_info{
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+}
+
+/* === Sobre === */
+
+.wreaper h1,
+.wreaper h2{
+    text-align: left;
+    font-size: 24px;
+    display: block;
+    padding: 20px 20px 20px 0 ;
+} 
+
+.wreaper p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    padding-bottom: 10px;
+    text-indent: 3ch;
+}
+
+/*=== Footer === */
+footer {
+    background-color:#e2c0ba;
+    border-top: 2px solid rgb(129, 109, 106, 0.2);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0vh;
+}
+footer p {
+    width: 300px;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 13px;
+}
