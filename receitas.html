@@ -2,7 +2,9 @@
 <html>
     <head>
         <title>Foodfy</title>
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -14,7 +16,7 @@
         </header>
         <section>
             <div id="recipe_list">
-                <div class="recipe__card" >
+                <div class="recipe__card" id="burger" >
                     <div class="card__image-container">
                         <img src="./assets/burger.png" alt="">
                     </div>
@@ -25,7 +27,7 @@
                         <p>por Jorge Relatto</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="pizza">
                     <div class="card__image-container">
                         <img src="./assets/pizza.png" alt="">
                     </div>
@@ -36,7 +38,7 @@
                         <p>por Faboana Mello</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="espaguete">
                     <div class="card__image-container">
                         <img src="./assets/espaguete.png" alt="">
                     </div>
@@ -47,7 +49,7 @@
                         <p>por Julia Kinoto</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="lasanha">
                     <div class="card__image-container">
                         <img src="./assets/lasanha.png" alt="">
                     </div>
@@ -58,7 +60,7 @@
                         <p>por Juliano Vieria</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="doce" >
                     <div class="card__image-container">
                         <img src="./assets/doce.png" alt="">
                     </div>
@@ -69,7 +71,7 @@
                         <p>por Ricardo Golvea</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="asinhas">
                     <div class="card__image-container">
                         <img src="./assets/asinhas.png" alt="">
                     </div>
@@ -80,7 +82,7 @@
                         <p>por Vania Steroski</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="burger_">
                     <div class="card__image-container">
                         <img src="./assets/burger.png" alt="">
                     </div>
@@ -91,7 +93,7 @@
                         <p>por Jorge Relatto</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="pizza_">
                     <div class="card__image-container">
                         <img src="./assets/pizza.png" alt="">
                     </div>
@@ -102,7 +104,7 @@
                         <p>por Faboana Mello</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="espaguete_">
                     <div class="card__image-container">
                         <img src="./assets/espaguete.png" alt="">
                     </div>
@@ -113,7 +115,7 @@
                         <p>por Julia Kinoto</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="lasanha_" >
                     <div class="card__image-container">
                         <img src="./assets/lasanha.png" alt="">
                     </div>
@@ -124,7 +126,7 @@
                         <p>por Juliano Vieria</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="doce_">
                     <div class="card__image-container">
                         <img src="./assets/doce.png" alt="">
                     </div>
@@ -135,7 +137,7 @@
                         <p>por Ricardo Golvea</p>
                     </div>
                 </div>
-                <div class="recipe__card" >
+                <div class="recipe__card" id="asinhas_" >
                     <div class="card__image-container">
                         <img src="./assets/asinhas.png" alt="">
                     </div>
@@ -152,5 +154,18 @@
             <p class="copy_footer">Todos direitos reservados, receitas Foodfy.</p>
         </footer>
 
+        <div class="modal_overlay">
+            <div class="modal"> 
+                <a class="max_modal">
+                    <span class="material-icons">fullscreen</span>
+                </a>
+                <a class="close_modal">
+                    <span class="material-icons">close</span>
+                </a>
+                <div class="modal_content">
+                </div>
+            </div>
+        </div>
+        <script src="./scripts.js"></script>
     </body>
 </html>
